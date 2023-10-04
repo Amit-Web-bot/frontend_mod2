@@ -1,0 +1,125 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookpal</title>
+    <link rel="icon" type="image/x-icon" href="./static/icons8-kawaii-broccoli-16.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="nvBr">
+        <div class="mob_nav"><button id="mob_nav" class="hid"><img src="./static/menu.png"></button></div>
+        <div class="nvbrItem logo"><img src="./static/Cookpal 1.png" alt="logo_cookpal"></div>
+    <div class="nvbrItem list">
+        <ul>
+            <li>Home</li>
+            <li>Explore</li>
+            <li>Help</li>
+        </ul>
+    </div>
+    <div class="nvbrItem profile">
+        <img src="./static/profile.png" alt="profile_pic">
+    </div>
+    </div>
+    <!-- hero section -->
+    <div class="hero">
+        <center><img src="./static/Rectangle 20.png" alt="hero_section"></center>
+        <div class="text">
+            <img src="./static/text.png" alt="text">
+        </div>
+    </div>
+    <div class="hero_mob">
+        <center><img src="./static/Banner_mob.png" alt="hero_section"></center>
+    </div>
+    <!-- Search-Bar -->
+    <h2 class="search_title">Search For Recipes</h2>
+    <div class = "search">     
+        <div class="search_box">
+            <i class="fa-solid fa-magnifying-glass" style="color: #d1cccc;"></i>
+            <input type="text" id="searchItm" placeholder="Search for recipes..">
+        </div>
+        <div class="searchBtn">
+            <button id="srchBtn"><i class="fa-solid fa-magnifying-glass" style="color: #f5f5f5;"></i></button>
+        </div>
+    </div>
+    <!-- Filter Buttons -->
+    <div class="filterBtn">
+        <button class="all_res">
+            All Recipes <i class="fa-solid fa-chevron-right" style="color: #ffffff; padding-left: 40px;"></i>
+        </button>
+        <button class="veg_res">
+            Veg Recipes Only  <i class="fa-solid fa-chevron-right" style="color: #ffffff; padding-left: 40px;"></i>
+        </button>
+        <button class="non_res">
+            Non Veg Recipes  <i class="fa-solid fa-chevron-right" style="color: #ffffff; padding-left: 40px;"></i>
+        </button>
+    </div>
+    <!-- Main section  -->
+    <div class="main_contain">
+        <div class="cont1">
+            <h2>Filters</h2>
+            <h3>Rating</h3>
+            <div><input type="radio" name = "rate" id="4above">4 and Above</div>
+            <div><input type="radio" name ="rate" id="4less">Below 4</div>
+        </div>
+    </div>
+    <!-- footer Section  -->
+    <div class="footer">
+        <div class="about">
+            <img src="./static/Cookpal 1.png">
+            <p>Cookpal is a recipe website with a wide variety of 
+                delicious recipes, easy-to-use search function. 
+                Join our community and let's cook together!</p>
+        </div>
+        <div class="link_table">
+            <table>
+                <thead>
+                    <th>Company</th>
+                    <th>Resources</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Home</td>
+                        <td>Blog</td>
+                    </tr>
+                    <tr>
+                        <td>Explore</td>
+                        <td>Use Cases</td>
+                    </tr>
+                    <tr>
+                        <td>Team</td>
+                        <td>Testimonials</td>
+                    </tr>
+                    <tr>
+                        <td>About Us</td>
+                        <td>Insight</td>
+                    </tr>
+                    <tr>
+                        <td>Activity</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <img src="./static/Cookpal 1.png" alt="">
+            <p>Ut risus mattis interdum faucibus facilisi. Facilisi purus accumsan aliquam.</p>
+        <div class="mail_form">
+            <input type="email" placeholder="Your Email                                                                  @">
+            <button>Susbcribe</button>
+        </div>
+        </div>
+    </div>
+    <!-- social medial -->
+    <div class="social">
+            <div><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></div>
+            <div><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></div>
+            <div><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></div>
+            <div><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
